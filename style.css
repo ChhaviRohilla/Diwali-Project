@@ -1,0 +1,113 @@
+
+    body {
+        background-color: seagreen;
+        display: inline-block;
+        
+
+
+    }
+
+    .box {
+        position: relative;
+        top: 60vh;
+        left: 20vh;
+        width: 300px;
+        height: 150px;
+        overflow: hidden;
+        background-color: brown;
+        border-radius: 0 0 150px 150px;
+        /* border: 2px solid grey; */
+
+
+    }
+
+    .box2 {
+        position: relative;
+        top: 33.5vh;
+        left: 20vh;
+        width: 300px;
+        height: 60px;
+        background-color: orangered;
+        /* border: 2px solid grey; */
+        border-radius: 50%;
+       
+    }
+
+    .flame {
+        display: flex;
+        justify-content: last baseline;
+        align-items: center;
+        /* position: relative;
+        
+        left: 60vh;
+        height: 170px;
+        width: 170px;
+        background-color: orange;
+        border-radius: ; */
+        position: relative;
+        top: 7vh;
+        left: 27vh;
+        width: 200px;
+        height: 70px;
+        background-color: orange;
+        border-radius: 50%;
+        transform: rotate(-90deg);
+        animation: rotate ease-in-out 1s infinite normal ;
+        /* border: 2px solid grey; */
+    }
+    @keyframes rotate {
+        from {
+                /* width: 200px; */
+                height:70px;
+            }
+
+            to {
+                /* width: 190px; */
+                height: 60px;
+            }
+        }
+        @keyframes rotate1 {
+        from {
+                /* width: 200px; */
+                height:45px;
+            }
+
+            to {
+                /* width: 190px; */
+                height: 35px;
+            }
+        }
+    .flame2 {
+        position: relative;
+
+
+       
+        /* border: 2px solid grey; */
+        justify-content: center;
+
+        width: 150px;
+        height: 45px;
+        background-color: yellow;
+        border-radius: 50%;
+        animation: rotate1 ease-in-out 1s infinite normal ;
+        /* transform:rotate(90deg) ; */
+    }
+
+    .text {
+        /* display: flex; */
+        position: fixed;
+        
+        /* align-items: center; */
+        /* text-align: center;
+        justify-content:centre ;
+        align-content: center; */
+        
+        width: 400px;
+        /* border: 2px solid brown; */
+        position: relative;
+        left: 40vw;
+        color: orange;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Sarabun', sans-serif;
+        font-family: 'Sofia Sans Condensed', sans-serif;
+    }
